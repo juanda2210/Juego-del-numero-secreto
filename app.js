@@ -54,7 +54,7 @@ function generarNumeroSecreto() {
 }
 
 function condicionesIniciales() {
-    asignarTextoElemento('h1', 'Juego del número secreto');
+    asignarTextoElemento('h1', 'Juego del número secreto modificado');
     asignarTextoElemento('p', 'Indica un número del 1 al ' + numeroMaximo);
     numeroSecreto = generarNumeroSecreto();
     i = 1;
